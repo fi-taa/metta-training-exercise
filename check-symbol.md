@@ -39,7 +39,7 @@ When the recursion terminates, the base case of NilNode is reached, and the func
 
 Example Test Cases
 
-    Test Case 1:
+Test Case 1:
 
 ```lisp
 ! (Check-Symbol NilNode B)
@@ -52,6 +52,6 @@ Test Case 2:
 ! (Check-Symbol (TreeNode A (TreeNode B NilNode NilNode) (TreeNode C NilNode NilNode)) d)
 ```
 
-- Initialization: The tree is non-empty.
-- Maintenance: The function first checks if the root A matches d (it doesn't). Then, it recursively checks the left subtree (TreeNode B NilNode NilNode) and the right subtree (TreeNode C NilNode NilNode). Neither subtree contains d.
-- Termination: The function correctly returns False as the symbol d is not found in the tree.
+    - Initialization: The tree is non-empty.
+    - Maintenance: The function first checks if the root A matches d (it doesn't). Then, it recursively checks the left subtree (TreeNode B NilNode NilNode) and the right subtree (TreeNode C NilNode NilNode). Neither subtree contains d.
+    - Termination: The function correctly returns False as the symbol d is not found in the tree.

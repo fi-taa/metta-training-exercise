@@ -1,3 +1,7 @@
+For the maxDepth function, the invariant is:
+    Invariant: For any subtree within the binary tree, the function maxDepth correctly computes the maximum depth of that subtree. So the function 'maxDepth' is the invariant.
+
+
 ## Detailed Loop Invariant Explanation
 
 ### Initialization

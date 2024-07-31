@@ -1,3 +1,5 @@
+Invariant : the correctness of the count of that symbol within the tree at each step of the recursion.
+
 ## Detailed Loop Invariant Explanation for `Count-Symbol`
 
 ### Initialization

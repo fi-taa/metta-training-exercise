@@ -1,3 +1,5 @@
+Invariant: is the function correctly determines whether the symbol $Symbol is present in the current subtree it is processing. So the functions itself "Check-Symbol" is the invariant.
+
 ## Detailed Loop Invariant Explanation for `Check-Symbol`
 
 ### Initialization
